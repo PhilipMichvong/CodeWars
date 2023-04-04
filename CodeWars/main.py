@@ -3,6 +3,10 @@ from binary_sum.binary_sum import binary_sum
 from is_square.is_square import *
 from to_print import print_function
 from find_outliners.find_outliners import find_outlier
+from move_zeros.move_zeros import move_zeros
+
+
+            
 
 def main():
     
@@ -15,7 +19,11 @@ def main():
     print_function("is square with math", is_square_math(4))
 
     print_function("find outliners", find_outlier([4,6,8,10,33]))
+    
+    print_function("move zeros", move_zeros([0,0,8,10,33]))
 
+  
+    
     
 if __name__ == "__main__":
 
