@@ -4,9 +4,8 @@ from is_square.is_square import *
 from to_print import print_function
 from find_outliners.find_outliners import find_outlier
 from move_zeros.move_zeros import move_zeros
+from count_char_string.count import count
 
-
-            
 
 def main():
     
@@ -21,7 +20,10 @@ def main():
     print_function("find outliners", find_outlier([4,6,8,10,33]))
     
     print_function("move zeros", move_zeros([0,0,8,10,33]))
+    
+    print_function("Count characters in your string",  count("sasasadadasaasadadad"))
 
+ 
   
     
     

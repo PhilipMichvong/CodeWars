@@ -23,3 +23,4 @@
 3. [You're a square!](https://github.com/PhilipMichvong/CodeWars/tree/main/CodeWars/is_square)
 4. [Find The Parity Outlier](https://github.com/PhilipMichvong/CodeWars/tree/main/CodeWars/find_outliners)
 5. [Moving Zeros To The End](https://github.com/PhilipMichvong/CodeWars/tree/main/CodeWars/move_zeros)
+6. [Count characters in your string](https://github.com/PhilipMichvong/CodeWars/tree/main/CodeWars/count_char_string)
