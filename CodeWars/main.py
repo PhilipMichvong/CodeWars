@@ -1,9 +1,11 @@
-from array_dif import array_diff
-from binary_sum import binary_sum
-from is_square import *
+from array_diff.array_dif import array_diff
+from binary_sum.binary_sum import binary_sum
+from is_square.is_square import *
 from to_print import print_function
 from find_outliners.find_outliners import find_outlier
+
 def main():
+    
     print_function("binnary sum",binary_sum(1,1))
 
     print_function("array diff", array_diff([1,2,3,4,5],[1,2,3,4]))
