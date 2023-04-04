@@ -1,6 +1,6 @@
 # **_Binary Addition_**
 
-## [**link**](https://www.codewars.com/kata/551f37452ff852b7bd000139)
+## [**link**](https://github.com/PhilipMichvong/CodeWars/blob/main/CodeWars/assets/banner.jpg?raw=true)
 
 ---
 
