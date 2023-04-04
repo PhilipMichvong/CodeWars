@@ -5,7 +5,7 @@ from to_print import print_function
 from find_outliners.find_outliners import find_outlier
 from move_zeros.move_zeros import move_zeros
 from count_char_string.count import count
-
+from rot13.rot13 import rot13
 
 def main():
     
@@ -23,6 +23,7 @@ def main():
     
     print_function("Count characters in your string",  count("sasasadadasaasadadad"))
 
+    print_function("Root_13", rot13("very very secret"))
  
   
     
