@@ -6,6 +6,19 @@ from find_outliners.find_outliners import find_outlier
 from move_zeros.move_zeros import move_zeros
 from count_char_string.count import count
 from rot13.rot13 import rot13
+from split_strings.split import split
+def split(s : str):
+    
+    if len(s)%2 != 0: 
+        s+="_"
+
+    for num in s:
+        if num.isdigit():
+            s = s.replace(num, "_")
+    
+    splited = [s[i:i+2] for i in range(0,len(s),2)]
+
+    return splited
 
 def main():
     
@@ -25,9 +38,8 @@ def main():
 
     print_function("Root_13", rot13("very very secret"))
  
-  
-    
-    
+    print_function("split string",split("123testtest"))
+
 if __name__ == "__main__":
 
     main()

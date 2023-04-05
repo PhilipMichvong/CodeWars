@@ -25,3 +25,4 @@
 5. [Moving Zeros To The End](https://github.com/PhilipMichvong/CodeWars/tree/main/CodeWars/move_zeros)
 6. [Count characters in your string](https://github.com/PhilipMichvong/CodeWars/tree/main/CodeWars/count_char_string)
 7. [ROT13](https://github.com/PhilipMichvong/CodeWars/tree/main/CodeWars/rot13)
+8. [Split Strings](https://github.com/PhilipMichvong/CodeWars/tree/main/CodeWars/split_strings)
