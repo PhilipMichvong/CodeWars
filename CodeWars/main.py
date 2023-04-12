@@ -22,27 +22,24 @@ from to_jaden_case.jaden import to_jaden_case
 
 #     return years_to_reach
 
+def score(dice) -> int:
+    from collections import Counter
+    points = {1:1000, 6:600, 5:500, 4:400, 3:300, 2:200}
+    dices = Counter(dice)
+    total_points= 0
+    for num, value in dices.items():
+        if value >=3:
+            total_points += points[num] * (value//3) # floor division
+        if num == 5:
+            total_points += 50 * (value%3)
+        elif num == 1:
+            total_points += 100 * (value%3)
+    return int(total_points)
+
+
 def main():
-    # 
-    # print_function("binnary sum",binary_sum(1,1))
-# 
-    # print_function("array diff", array_diff([1,2,3,4,5],[1,2,3,4]))
-# 
-    # print_function("is square", is_square(4))
-# 
-    # print_function("is square with math", is_square_math(4))
-# 
-    # print_function("find outliners", find_outlier([4,6,8,10,33]))
-    # 
-    # print_function("move zeros", move_zeros([0,0,8,10,33]))
-    # 
-    # print_function("Count characters in your string",  count("sasasadadasaasadadad"))
-# 
-    # print_function("Root_13", rot13("very very secret"))
-#  
-    # print_function("split string",split("123testtest"))
-# 
-    print(nb_year(1500000, 2.5, 10000, 2000000))
+ 
+    score([1,1,1,3,4])
 
 if __name__ == "__main__":
 
