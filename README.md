@@ -26,3 +26,4 @@
 6. [Count characters in your string](https://github.com/PhilipMichvong/CodeWars/tree/main/CodeWars/count_char_string)
 7. [ROT13](https://github.com/PhilipMichvong/CodeWars/tree/main/CodeWars/rot13)
 8. [Split Strings](https://github.com/PhilipMichvong/CodeWars/tree/main/CodeWars/split_strings)
+9. [Jaden Casing Strings](https://github.com/PhilipMichvong/CodeWars/tree/main/CodeWars/to_jaden_case)
