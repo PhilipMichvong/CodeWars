@@ -1,5 +1,3 @@
-
-    
 def determinant(matrix):
     import numpy as np
     import math
@@ -10,13 +8,3 @@ def determinant(matrix):
     print(n_array)
     det = np.linalg.det(n_array)
     return int(round(det,0))
-
-
-
-def main():
-    print("dupa")
-
-if __name__ == "__main__":
-
-    main()
-    

@@ -27,3 +27,5 @@
 7. [ROT13](https://github.com/PhilipMichvong/CodeWars/tree/main/CodeWars/rot13)
 8. [Split Strings](https://github.com/PhilipMichvong/CodeWars/tree/main/CodeWars/split_strings)
 9. [Jaden Casing Strings](https://github.com/PhilipMichvong/CodeWars/tree/main/CodeWars/to_jaden_case)
+10. [Greed is Good](https://github.com/PhilipMichvong/CodeWars/tree/main/CodeWars/score)
+11. [Matrix Determinant](https://github.com/PhilipMichvong/CodeWars/tree/main/CodeWars/determinant)
